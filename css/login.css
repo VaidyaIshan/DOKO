@@ -1,0 +1,93 @@
+
+  
+  body {
+    margin: 0;
+    font-family: "Gotu","serif";
+    background-color: #F28C28;
+  }
+  
+  .Main-box {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-left: 185px;
+    margin-top: -50px;
+  }
+  
+  .side-content {
+    background-color: #F28C28;
+    width: 87%;
+    padding: 20px;
+    color: #242425;
+  }
+  
+  .main-title {
+    margin-top: 150px;
+    font-size: 105px;
+    
+    overflow: hidden;
+    white-space: nowrap;
+   
+  }
+  
+  
+  
+  .main-title, .small-title {
+    margin-left: 5%;
+  }
+  
+  .small-title {
+    font-size: 65px;
+   
+    margin-top: 50px;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    height: 100vh;
+    background-color: #2B2D42;
+    align-items: center;
+   
+  }
+  
+  .Submit-btn {
+    padding: 10px;
+    background-color: #F28C28;
+    color: black;
+    font-size: large;
+    border-radius: 10px;
+    width: 80%;
+   
+  }
+  
+  .New-register {
+    font-size: 18px;
+    color: white;
+  }
+  
+
+  
+  .form-inp {
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  a {
+    color: yellow;
+  }
+  
+  .login-now {
+    color: white;
+    
+  }
+  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="./js/navbar.js"></script>
+
+  
+</head>
+
+<body>
+    <div class="bgvideo">
+        <video autoplay muted loop>
+            <source src="assets/back.mp4" type="video/mp4">
+            </video>
+        </div>
+   <navbar-component></navbar-component>
+        <div>
+        <h1 id="main-title" class="main-title">डोको</h1>
+         <h2 id="small-title" class="small-title">पढाइको डोको, जीवनको मुखिया।</h2>
+         </div>
+
+    <script>
+        const maintitles = ["डोको", "Doko"];
+        const smalltitles = ["पढाइको डोको, जीवनको मुखिया।", "Education Sculpts Leaders Of Life"];
+        const maintitleElement = document.getElementById("main-title");
+        const smalltitleElement = document.getElementById("small-title");
+        let count = 0;
+        setInterval(() => {
+            count = (count + 1) % maintitles.length;
+            maintitleElement.textContent = maintitles[count];
+            smalltitleElement.textContent = smalltitles[count];
+        }, 5000);
+    </script>
+</body>
+</html>
